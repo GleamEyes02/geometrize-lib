@@ -11,6 +11,7 @@
 
  * Geometrize images into shapes.
  * Export the results as SVG, JSON and more.
+ * Optional OpenCL backend that scores candidate shapes on the GPU, with results identical to the CPU path and an automatic fallback when OpenCL is unavailable.
 
 ## Usage
 
@@ -48,3 +49,4 @@ See the Geometrize [resources](https://resources.geometrize.co.uk/) page.
 
 ## Notes
  * Got an idea or suggestion? Open an issue on GitHub, or send Sam a message on [Twitter](https://twitter.com/Sam_Twidale).
+ * The OpenCL backend was contributed by [GleamEyes02](https://github.com/GleamEyes02).
